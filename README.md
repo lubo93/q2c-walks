@@ -6,5 +6,7 @@ The ``walkerlib'' directory contains definitions of classical and quantum Hamilt
 
 You can run the examples ``qc_walks.py`` and ``qsw_walks.py``. After running ``qc_walks.py``, you should be able to obtain the following plot: 
 
+<p align="center">
 ![Image](qc_plot.png)
+</p>
 
