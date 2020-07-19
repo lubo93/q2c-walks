@@ -213,10 +213,10 @@ def simulate_qc(G,
     cnt = np.asarray(cnt)
 
     classical_observation_prob = \
-    np.asarray([x for x in degreeProbDictC.values()])/cnt*sum(cnt)
+    np.asarray([x for x in degreeProbDictC.values()])/cnt*1e3
     
     quantum_observation_prob = \
-    np.asarray([x for x in degreeProbDictQ.values()])/cnt*sum(cnt)
+    np.asarray([x for x in degreeProbDictQ.values()])/cnt*1e3
     
     return deg, classical_observation_prob, quantum_observation_prob
 
@@ -311,7 +311,7 @@ def simulate_QSW(G,
     cnt = np.asarray(cnt)
     
     QSW_observation_prob = \
-    np.asarray([x for x in degreeProbDictQSW.values()])/cnt*sum(cnt)
+    np.asarray([x for x in degreeProbDictQSW.values()])/cnt*1e3
     
     return deg, QSW_observation_prob
 

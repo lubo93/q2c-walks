@@ -69,10 +69,10 @@ plt.plot(degree_arr, classical_observation_prob_analytical, marker = 's', \
 plt.plot(degree_arr, QSW_observation_prob, marker = 'o', ls = 'None', \
          markersize = 4, label=r'QSW, $\epsilon=%1.1f$'%eps)
 plt.xlim(0,20)
-plt.ylim(0,3)  
+plt.ylim(0,2)  
 ax.xaxis.set_minor_locator(MultipleLocator(0.5))
 plt.legend(loc = 2, frameon = False, fontsize = 8)
 plt.xlabel(r'degree')
-plt.ylabel(r'occupation prob. $\left(10^{-3}\right)$')
+plt.ylabel(r'occupation prob. ($10^{-3}$)')
 plt.tight_layout()
 plt.show()

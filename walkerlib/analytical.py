@@ -33,7 +33,7 @@ def stationary_distribution(G, HC, phiC0, r):
         degreeProbDictC_analtyic[G.degree(j)] += stationary_distr_cl[j]   
     
     classical_observation_prob_analytical = \
-    np.asarray([x for x in degreeProbDictC_analtyic.values()])/cnt*sum(cnt)
+    np.asarray([x for x in degreeProbDictC_analtyic.values()])/cnt*1e3
     
     return deg, classical_observation_prob_analytical
         
@@ -86,6 +86,6 @@ def long_time_average(G, HQ, phim1Q0, r):
         degreeProbDictQ_analtyic[G.degree(j)] += stationary_distr_q[j]   
     
     quantum_observation_prob_analytical = \
-    np.asarray([float(x) for x in degreeProbDictQ_analtyic.values()])/cnt*sum(cnt)
+    np.asarray([float(x) for x in degreeProbDictQ_analtyic.values()])/cnt*1e3
         
     return deg, quantum_observation_prob_analytical
