@@ -15,5 +15,5 @@ Orange crosses and blue disks are classical and quantum occupation probabilities
 You can also compare walker dynamics for various reset rates and networks. Here is a video that summarizes some properties of classical and quantum walks:
 
 <p align="center">
-  <a href = "https://vimeo.com/429312302"> <img src="vimeo.png" width = "200"> </a>
+  <a href = "https://vimeo.com/429312302"> <img src="vimeo.png" width = "350"> </a>
 </p>
