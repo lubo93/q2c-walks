@@ -16,5 +16,4 @@ You can also compare walker dynamics for various reset rates and networks. Here 
 
 <p align="center">
 <iframe src="https://player.vimeo.com/video/429312302" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/429312302">Classical and quantum random walks with reset on networks</a> from <a href="https://vimeo.com/user14770743">Lucas Boettcher</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </p>
