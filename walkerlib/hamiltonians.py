@@ -43,27 +43,3 @@ def QHamiltonian(G):
     HQ = normalized_laplacian_matrix(G, nodelist=nodes)
     
     return HQ
-
-def GroverHamiltonian(G, gamma, w):
-    """ 
-    Grover Hamiltonian of a quantum random walker on a graph G. 
-    
-    Parameters: 
-    G (graph): networkx graph object 
-    gamma (float): Laplacian prefactor 
-    w (float): search (or target) state 
-
-    For further information, see Childs, A. M., & Goldstone, J. (2004). 
-    Spatial search by quantum walk. Physical Review A, 70(2), 022314.
-
-    Returns: 
-    sparse matrix: quantum walk Hamiltonian for Grover search
-  
-    """
-    nodes = sorted(G.nodes())
-    
-    wT = w[:,newaxis]
-    
-    HG = gamma*normalized_laplacian_matrix(G, nodelist=nodes) + kron(wT, w) 
-    
-    return HG
