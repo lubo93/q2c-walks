@@ -17,3 +17,6 @@ You can also compare walker dynamics for various reset rates and networks. Here 
 <p align="center">
   <a href = "https://vimeo.com/429312302"> <img src="vimeo.png" width = "350"> </a>
 </p>
+
+## Reference
+* S. Wald, L. Böttcher, [From classical to quantum walks with stochastic resetting on networks](https://arxiv.org/abs/2008.00510), arXiv:2008.00510
