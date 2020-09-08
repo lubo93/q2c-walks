@@ -130,7 +130,7 @@ def simulate_qc(G,
                 N, 
                 dt, 
                 r, 
-                average_treshold = 100):
+                average_threshold = 100):
     """ 
     Run simulation.
     
@@ -144,14 +144,14 @@ def simulate_qc(G,
     N (int): number of time steps
     dt (float): time step
     r (float): reset rate
-    average_treshold (int): number of initial steps before averaging
+    average_threshold (int): number of initial steps before averaging
 
     Returns: 
     degree array, occupation probabilities
   
     """
     
-    assert N > average_treshold, "N should be larger than average_treshold"
+    assert N > average_threshold, "N should be larger than average_treshold"
     
     phim1Q = np.copy(phim1Q0)            
     phiQ = np.copy(phiQ0)        
@@ -242,7 +242,8 @@ def simulate_QSW(G,
     N (int): number of time steps
     dt (float): time step
     r (float): reset rate
-    average_treshold (int): number of initial steps before averaging
+    samples (int): number of samples
+    eps (float): interpolation parameter (eps = 0 --> quantum, eps = 1 --> classical)
 
     Returns: 
     degree array, occupation probabilities
