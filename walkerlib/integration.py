@@ -196,7 +196,7 @@ def simulate_qc(G,
             phip1C = Cintegrate(phiC, HC, dt)
             phiC = np.copy(phip1C)  
             
-            if i > average_treshold:
+            if i > average_threshold:
                 
                 number_samples += 1
                 
