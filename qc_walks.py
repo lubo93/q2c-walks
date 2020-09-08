@@ -48,7 +48,7 @@ degree_arr, classical_observation_prob, \
                                                    N, 
                                                    dt, 
                                                    r, 
-                                                   average_treshold = 100)
+                                                   average_threshold = 100)
 
 print("--- %s seconds runtime ---" % (time.time() - start_time))
 
