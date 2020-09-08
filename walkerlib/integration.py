@@ -151,7 +151,7 @@ def simulate_qc(G,
   
     """
     
-    assert N > average_threshold, "N should be larger than average_treshold"
+    assert N > average_threshold, "N should be larger than average_threshold"
     
     phim1Q = np.copy(phim1Q0)            
     phiQ = np.copy(phiQ0)        
