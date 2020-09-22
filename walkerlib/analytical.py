@@ -68,8 +68,8 @@ def long_time_average(G, HQ, phim1Q0, r):
             v1 = np.ravel(eigenvectors[:,k])
             v2 = np.ravel(eigenvectors[:,kp])
             
-            prod1 = np.dot(phim1Q0, v1)
-            prod2 = np.dot(phim1Q0, v2)
+            prod1 = np.dot(phim1Q0, np.conj(v1))
+            prod2 = np.dot(np.conj(phim1Q0), v2)
             
             stationary_distr_q += \
             v1*v2*r/(r+1.0j*(eigenvalues[k]-eigenvalues[kp]))*prod1*prod2
