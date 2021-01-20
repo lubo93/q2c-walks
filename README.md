@@ -24,10 +24,18 @@ You can also compare walker dynamics for various reset rates and networks. Here 
 Please cite our paper if you use our simulation framework.
 
 ```
-@article{wald2020classical,
-  title={From classical to quantum walks with stochastic resetting on networks},
-  author={Wald, Sascha and B{\"o}ttcher, Lucas},
-  journal={arXiv preprint arXiv:2008.00510},
-  year={2020}
+@article{PhysRevE.103.012122,
+  title = {From classical to quantum walks with stochastic resetting on networks},
+  author = {Wald, Sascha and B\"ottcher, Lucas},
+  journal = {Phys. Rev. E},
+  volume = {103},
+  issue = {1},
+  pages = {012122},
+  numpages = {12},
+  year = {2021},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.103.012122},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.103.012122}
 }
 ```
